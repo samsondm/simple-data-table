@@ -1,0 +1,26 @@
+.app {
+  width: 96%;
+  max-width: 960px;
+  min-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  &__header {
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+  .fetch {
+    margin-top: 10px;
+    &__header {
+      margin-bottom: 5px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+    &__button {
+      margin: 0 5px;
+    }
+  }
+  &__search {
+    margin: 5px 0;
+  }
+}
